@@ -1,0 +1,19 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,400,600);
+
+.kiki{
+    display: inline-block;
+    margin-left: 245px;
+    margin-top: 25px;
+}
+.truc{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.koko{
+    border-bottom-width:50 px;
+}
+
+.slide{
+    margin-left:10 px;
+}
