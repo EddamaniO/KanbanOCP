@@ -4,6 +4,7 @@
     display: inline-block;
     margin-left: 245px;
     margin-top: 25px;
+    outline-color:green;
 }
 .truc{
     display: inline-block;
@@ -14,6 +15,6 @@
     border-bottom-width:50 px;
 }
 
-.slide{
-    margin-left:10 px;
+.hihi{
+   background-color:lightgreen;
 }

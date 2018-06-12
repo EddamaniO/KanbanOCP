@@ -50,6 +50,6 @@
             <p>{{ $message }}</p>
         @endif
     </div>
-
+</div>
 </body>
 </html>

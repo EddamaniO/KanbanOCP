@@ -3,18 +3,17 @@
 @section('content')
     <div class="card kiki">
         <div class="card-header">
-            <h5>Titre du board <button type="button" class="btn btn-primary slide" data-toggle="modal" data-target="#myModal">Ajouter un membre</button></h5>
-
+            <h5>Titre du board <button type="button" class="btn hihi" data-toggle="modal" data-target="#myModal">Ajouter un membre</button></h5>
         </div>
         <div class="card-body">
             <h5 class="card-title">{{__('homeb.description')}}</h5>
             <p class="card-text">Bla bla bla bla</p>
-            <a href="#" class="btn btn-default">{{__('homeb.afficher')}}</a>
+            <a href="#" class="btn try btn-default">{{__('homeb.afficher')}}</a>
         </div>
     </div>
         <div class="card truc">
             <div class="card-header">
-                <button type="button" class="btn btn-primary koko" data-toggle="modal" data-target="#plus">+</button>
+                <button type="button" class="btn hihi" data-toggle="modal" data-target="#plus">+</button>
             </div>
         </div>
     <div class="modal fade" id="myModal">
@@ -36,6 +35,7 @@
                                 <button type="submit" class="btn btn-primary" data-toggle="modal" data-target="#try">
                                     {{__('Rechercher')}}
                                 </button>
+                            </form>
                         </div>
                     </form>
                 </div>
@@ -78,8 +78,6 @@
                     <button type="button" class="close" data-dismiss="modal">&times;</button>
                 </div>
                 <div class="modal-body">
-                    <form action="/search" method="POST" role="search">
-                        {{ csrf_field() }}
                         <div class="input-group">
                             <form>
                                 <div class="form-group">
@@ -92,7 +90,6 @@
                                 </div>
                             </form>
                         </div>
-                    </form>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>

@@ -27,9 +27,9 @@
         </tr>
         </thead>
         <tbody>
-        <tr">
-        <td><input type="texte" placeholder="Ajoutez un titre pour une carte" class="col-sm-12"</td>
-        <td><button class="btn btn-warning btn-block"">Add</button></td>
+        <tr>
+        <td><input type="texte class=col-sm-12" placeholder='Ajoutez un titre pour une carte'></td>
+        <td><button class="btn btn-warning btn-block">Add</button></td>
         </tr>
         </tbody>
     </table>

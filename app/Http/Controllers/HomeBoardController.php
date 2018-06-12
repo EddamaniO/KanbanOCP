@@ -19,15 +19,15 @@ class HomeBoardController extends Controller
     {
         return Validator::make($data, [
             'Titre' => 'required|string|max:255|unique:board',
-            'Description' => 'required|string|max:255|',
+            'Description' => 'required|string|max:255',
         ]);
     }
 
     protected function create(array $data)
     {
-        return Board::create([
-            'titre' => $data['titre'],
-            'description' => $data['description'],
-        ]);
+       return Board::create([
+           'Titre' =>$data['Titre'],
+           'Description' => $data['Description'],
+       ]);
     }
 }
